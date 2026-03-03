@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monisha Prakasam | Premium Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="darkmode.css">
+</head>
+<body>
+
+    <!-- Floating Shapes -->
+    <div class="shape shape1"></div>
+    <div class="shape shape2"></div>
+
+    <!-- Dark Mode Toggle -->
+    <button id="darkToggle">🌙</button>
+
+    <!-- HERO SECTION -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1 class="glass">Monisha Prakasam</h1>
+            <h3 class="typing"></h3>
+            <a href="#resume" class="btn">View Resume</a>
+        </div>
+    </header>
+
+    <!-- HIGHLIGHTS -->
+    <section class="highlights">
+        <div class="highlight-card">
+            <h2>10+</h2><p>Internships</p>
+        </div>
+        <div class="highlight-card">
+            <h2>3</h2><p>Research Papers</p>
+        </div>
+        <div class="highlight-card">
+            <h2>5+</h2><p>Moot Experiences</p>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section glass" id="about">
+        <h2>About Me</h2>
+        <p>
+            Detail-oriented law student skilled in research, drafting, litigation assistance,
+            and documentation. Experienced across multiple legal chambers and institutions.
+        </p>
+    </section>
+
+    <!-- RESUME -->
+    <section class="section" id="resume">
+        <h2>My Resume</h2>
+        <iframe src="resume.pdf" class="resume-frame"></iframe>
+        <a href="resume.pdf" download class="btn">Download Resume</a>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section glass" id="skills">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+            <li>Legal Research</li>
+            <li>Drafting</li>
+            <li>Client Communication</li>
+            <li>Critical Thinking</li>
+            <li>File Organization</li>
+            <li>Prioritization</li>
+        </ul>
+    </section>
+
+    <!-- INTERNSHIP TIMELINE -->
+    <section class="section" id="work">
+        <h2>Internship Timeline</h2>
+
+        <div class="timeline">
+            <div class="timeline-item">Adv. Rahul Kumar Singh (2026)</div>
+            <div class="timeline-item">Adv. B.S. Jeganathan (2025)</div>
+            <div class="timeline-item">Adv. C. Muthusaravanan (2025)</div>
+            <div class="timeline-item">Adv. R. Sreedhar (2024)</div>
+            <div class="timeline-item">K. Munusami & Co. (2024)</div>
+            <div class="timeline-item">Lawyer’s Arc (2024)</div>
+            <div class="timeline-item">Adv. Thenmozhi (2023)</div>
+            <div class="timeline-item">Adv. Vadivelu (2022–23)</div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section glass" id="contact">
+        <h2>Contact Me</h2>
+
+        <form class="contact-form" action="https://formspree.io/f/YOUR_ID" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="_replyto" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <!-- MOBILE NAV -->
+    <nav class="mobile-nav">
+        <a href="#about">About</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <script src="script.js"></script>
+    <script src="darkmode.js"></script>
+</body>
+</html>
